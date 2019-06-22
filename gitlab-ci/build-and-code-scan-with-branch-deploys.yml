@@ -1,3 +1,6 @@
+# Test, scan, build, and deploy an application.
+# Feature branches get their own namespace so everyone can
+# deploy their version of code without interrupting dev/test/prod.
 # Ref: https://gitlab.com/gitlab-org/gitlab-ci-yml/blob/master/Maven.gitlab-ci.yml
 
 image: maven:3.6.1-jdk-8
